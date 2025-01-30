@@ -23,6 +23,8 @@ information about popular movies, enabling an exploration of the cinematic world
 - **json_annotation**: for json mappers creation.
 - **bloc**: for state management.
 - **cached_network_image**: for image caching.
+- **hive**: for the local database.  
+
 
 3. The project structure is divided into three layers:
 
