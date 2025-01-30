@@ -22,6 +22,7 @@ information about popular movies, enabling an exploration of the cinematic world
 - **intl**: for texts internationalization.
 - **json_annotation**: for json mappers creation.
 - **bloc**: for state management.
+- **cached_network_image**: for image caching.
 
 3. The project structure is divided into three layers:
 
@@ -60,28 +61,26 @@ flutter pub get
 
 ```
 THE_MOVIE_DB_API_KEY=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYmI2NDlhNDg5MDJjZmZlNTJkOTYwMmY3MTM0MGEzYSIsIm5iZiI6MTY2NzY3Mjc5OC4xNjcsInN1YiI6IjYzNjZhYWRlNjY1NjVhMDA4YWMxM2U2MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Z1xmorvBxbvzdtAANeg1DO1wTkUxASNN4P0DElcTdn0```
-
-4. To generate files:
 ```
 
-dart run build_runner build --delete-conflicting-outputs
 
+4. To generate files:
+
+```
+dart run build_runner build --delete-conflicting-outputs
 ```
 
 5. To run the app:
+
 ```
-
 flutter run -d [device_id]
-
 ```
 
 - To format the project source code:
-```
 
 1. dart analyze .
 2. dart format .
 
-```
 
 --
 
