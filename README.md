@@ -36,6 +36,12 @@ information about popular movies, enabling an exploration of the cinematic world
 
 <img src="docs/gifs/demo_themoviedb.gif" width="350" height="650"/>
 
+
+### Without internet connection:
+
+<img src="docs/gifs/data_with_no_internet.gif" width="350" height="650"/>
+
+
 # Installation
 
 1. Clone this repository and import in into **Android Studio**:
