@@ -1,0 +1,16 @@
+{
+  "@@locale": "en_US",
+
+  "app_name": "TheMovieDB",
+  "popularity_title": "Popularity:",
+  "release_date_title": "Release Date:",
+  "top_n_popular_movies_title": "Top {number} Popular Movies",
+  "@top_n_popular_movies_title": {
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "5"
+      }
+    }
+  }
+}
