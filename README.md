@@ -37,11 +37,9 @@ information about popular movies, enabling an exploration of the cinematic world
 
 <img src="docs/gifs/demo_themoviedb.gif" width="350" height="650"/>
 
-
 ### Without internet connection:
 
 <img src="docs/gifs/data_with_no_internet.gif" width="350" height="650"/>
-
 
 # Installation
 
@@ -63,7 +61,6 @@ flutter pub get
 THE_MOVIE_DB_API_KEY=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYmI2NDlhNDg5MDJjZmZlNTJkOTYwMmY3MTM0MGEzYSIsIm5iZiI6MTY2NzY3Mjc5OC4xNjcsInN1YiI6IjYzNjZhYWRlNjY1NjVhMDA4YWMxM2U2MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Z1xmorvBxbvzdtAANeg1DO1wTkUxASNN4P0DElcTdn0```
 ```
 
-
 4. To generate files:
 
 ```
@@ -81,9 +78,20 @@ flutter run -d [device_id]
 1. dart analyze .
 2. dart format .
 
-
 --
 
 **Flutter version: 3.27.1**
 
 --
+
+# Missing features
+
+To meet the project deadline, the following features were not implemented:
+
+1. Golden tests & Widget tests (presentation layer), Unit tests (For BLoC, use cases, repositories
+   and datasources), and Integration tests (to automate the movies listing and routing testing
+   process).
+2. Specific widgets for error handling and loading states.
+3. A more detailed error handling mechanism.
+4. A DIO interceptor to handle network errors and inject API KEYS.
+5. Cache mechanism for movie details.
